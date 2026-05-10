@@ -47,8 +47,8 @@ export async function seedTransactions() {
     let totalBalance = 0;
 
     // Generate transactions from 1 Nov 2025 to 10 Mar 2026
-    const startDate = new Date("2025-11-01");
-    const endDate = new Date("2026-03-10");
+    const startDate = new Date("2026-02-01");
+    const endDate = new Date("2026-05-10");
 
     for (
       let date = new Date(startDate);
